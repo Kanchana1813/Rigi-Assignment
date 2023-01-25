@@ -28,18 +28,21 @@ header button{
 .registerPage{
     background-color: black;
     display: flex;
-    /* border: 1px solid white; */
+    justify-content: center;
+    align-items: center;
     height: auto;
     width: 99.9%;
+    border: 1px solid red;
 }
 
 .registerPageLeft{
-    flex: 6;
+    flex: 7;
     text-align: center;
     margin-top: 2.5rem;
+    /* border: 1px solid white; */
 }
 
-.regHeader{
+.registerPageLeft .regHeader{
     line-height: 1.6rem;
     margin-left: 10rem;
 }
@@ -60,6 +63,7 @@ header button{
     letter-spacing: 0.1rem;
     font-size: 3.4rem;
     text-shadow: 1px 3px 10px white;
+    /* line-height: 4rem; */
 }
 
 .visionImage{
@@ -67,13 +71,12 @@ header button{
     flex: 4;
 }
 
-.nameClass{
+.registerPage .nameClass{
     display: flex;
     color: #f8e884;
-    line-height: 1rem;
 }
 
-.leftName{
+.leftName, .rightName{
     flex: 1;
 }
 
@@ -121,6 +124,7 @@ header button{
     background-color: #f8e884;
     color: black;
     font-weight: 700;
+    cursor: pointer;
 }
 
 .date{
@@ -270,15 +274,36 @@ hr{
     text-transform: uppercase;
     padding: 0.7rem 3rem;
     font-size: 1.5rem;
-    /* margin-left: 2rem; */
     margin-top: 1rem;
     background-color: #f8e87d;
     color: black;
     font-weight: 700;
     border: none;
+    cursor: pointer;
 }
 
 .footer p{
     font-size: 0.8rem;
     margin-top: 1.5rem;
+}
+
+@media only screen and (max-width: 400px) {
+    header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 400px){
+     
+    .registerPage{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        height: auto;
+        width: 99.9%;
+    }
 }
