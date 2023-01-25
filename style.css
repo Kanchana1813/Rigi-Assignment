@@ -28,21 +28,17 @@ header button{
 .registerPage{
     background-color: black;
     display: flex;
-    justify-content: center;
-    align-items: center;
     height: auto;
     width: 99.9%;
-    border: 1px solid red;
 }
 
 .registerPageLeft{
-    flex: 7;
+    flex: 6;
     text-align: center;
     margin-top: 2.5rem;
-    /* border: 1px solid white; */
 }
 
-.registerPageLeft .regHeader{
+.regHeader{
     line-height: 1.6rem;
     margin-left: 10rem;
 }
@@ -63,7 +59,6 @@ header button{
     letter-spacing: 0.1rem;
     font-size: 3.4rem;
     text-shadow: 1px 3px 10px white;
-    /* line-height: 4rem; */
 }
 
 .visionImage{
@@ -71,12 +66,13 @@ header button{
     flex: 4;
 }
 
-.registerPage .nameClass{
+.nameClass{
     display: flex;
     color: #f8e884;
+    line-height: 1rem;
 }
 
-.leftName, .rightName{
+.leftName{
     flex: 1;
 }
 
@@ -112,7 +108,7 @@ header button{
 .daysAndTimeName{
     color: white;
     word-spacing: 9rem;
-    margin-left: 9rem;
+    margin-left: 9.6rem;
 }
 
 .registerPageLeft button{
