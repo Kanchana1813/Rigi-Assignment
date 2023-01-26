@@ -316,6 +316,7 @@ hr{
     }
     .regHeader h1{
         font-size: 2.2rem;
+        line-height: 2rem;
     }
     .regHeader h2{
         font-size: 1rem;
@@ -359,12 +360,22 @@ hr{
         margin-bottom: 2rem;
         margin-left: -3rem;
     }
+
+    .transformImage img {
+        margin-left: 4.5rem;
+    }
+
     .benefitsRegLeft button{
-        padding: 1.2rem 2rem;
+        padding: 1rem 2rem;
         font-size: 0.8rem;
-        margin-left: 10rem;
+        margin-left: 8rem;
         width: 50%;
     }
+
+    .benefitsRegLeft img{
+        margin-left: 2.5rem;
+    }
+
     .cardsContainer{
         margin: 1.6rem;
     }
