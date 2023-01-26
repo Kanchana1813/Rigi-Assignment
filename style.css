@@ -325,6 +325,19 @@ hr{
         justify-content: left;
         margin-left: -1.5rem;
     }
+
+    .zoomLink h2{
+        font-size: 1rem;
+    }
+    
+    .zoomLink i{
+        font-size: 1rem;
+    }
+
+    .date h2{
+        font-size: 1rem;
+    }
+
     .tagLine{
         font-size: 0.8rem;
     }
