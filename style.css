@@ -315,9 +315,12 @@ hr{
         display: none;
     }
     .regHeader h1{
-        font-size: 2rem;
+        font-size: 2.2rem;
     }
     .regHeader h2{
+        font-size: 1rem;
+    }
+    .regHeader h3{
         font-size: 1.2rem;
     }
 
